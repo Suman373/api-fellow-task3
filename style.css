@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{scroll-behavior: smooth;}
+a{text-decoration: none;}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: #e9e9e9;
+    color: #fef022f6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',serif;
+}
+.app{
+    height: fit-content;
+    margin:1rem auto;
+    width:fit-content;
+    background: #882222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1rem;
+    padding: 1rem;
+}
+.title-wrapper{text-align:center;}
+.title-wrapper h1{
+    font-size: 2.5rem;
+}
+.title-wrapper p{
+    font-size: 1rem;
+    padding: 1rem 20%;
+}
+.input-wrapper{
+    height:3rem;
+    width: 20rem;
+}
+.input-wrapper input{
+    height: 3rem;
+    padding: 1rem;
+    width: 80%;
+    font-size: 1rem;
+}
+.input-wrapper button{
+    height: 3rem;
+    width:18%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#pokemon-card{
+    height: 25rem;
+    width: 25rem;
+    padding:1rem;
+    background: lightpink;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap:1rem;
+}
